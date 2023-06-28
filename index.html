@@ -4,332 +4,272 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>교보생명</title>
+    <title>이솝</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1920px)" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1000px)" href="./css/main1000.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:480px)" href="./css/main480.css" />
+    <script src="./js/jquery3.0.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/home-slide.js"></script>
+    <script src="./js/nav_menu.js"></script>
 </head>
 <body>
-    <div id="wrap">
-        <!-- 헤더 영역 -->
-        <header id ="header">
-            <header id ="header_in">
-                <h1 class="logo"><img src="./images/logo.png" alt="로고" /></h1>
-                <nav class="mtog">
-                    <button type="button" class="mtog_l">개인</button>
-                    <button type="button" class="mtog_r">기업</button>
-                </nav>
-                <nav class="nav">
+    <div id ="wrap">
+        <!-- 헤더영역 -->
+        <header id = header>
+            <header id="header_in">
+                <h1 class="logo"><img src="./images/logo01.png" alt="로고"></h1>
+                <ul class="nav">
+                    <li>
+                        <a href="">스킨케어</a>
+                        <ul class="sub">
+                            <li><a href="">클렌저</a></li>
+                            <li><a href="">각질제거</a></li>
+                            <li><a href="">하이드레이터</a></li>
+                            <li><a href="">립&아이</a></li>
+                        </ul>
+                    </li>
+                    <li>   
+                        <a href="">바디&핸드</a>
+                        <ul class="sub">
+                            <li><a href="">핸드</a></li>
+                            <li><a href="">바디</a></li>
+                            <li><a href="">퍼스널케어</a></li>
+                            <li><a href="">번들</a></li>
+                        </ul>
+                    </li>    
+                    <li>
+                        <a href="">헤어</a>
+                        <ul class="sub">
+                            <li><a href="">샴푸</a></li>
+                            <li><a href="">컨디셔너</a></li>
+                            <li><a href="">트리트먼트</a></li>
+                            <li><a href="">그루밍</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">향수</a>
+                        <ul class="sub">
+                            <li><a href="">글롬</a></li>
+                            <li><a href="">이더시스</a></li>
+                            <li><a href="">미라세티</a></li>
+                            <li><a href="">카르스트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">스토어</a></li>
+                </ul>
+                <nav class="nav_sub">
                     <ul>
-                        <li><a href="#">MY교보</a></li>
-                        <li><a href="#">상품</a></li>
-                        <li><a href="#">고객센터</a></li>
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">카트</a></li>
                     </ul>
                 </nav>
-                <nav class="group">
-                    <ul class="link">
-                        <li><a href="#">인증센터</a></li>
-                        <li><a href="#">소비자포털</a></li>
-                        <li><a href="#">회사소개</a></li>&nbsp;&nbsp;
-                        <img src="./images/btn_ic_link.png" alt="" />
-                        <li><a href="#">공시실</a></li>&nbsp;&nbsp;
-                        <img src="./images/btn_ic_link.png" alt="" />
-                        <li><a href="#">ENGLISH</a></li>&nbsp;&nbsp;
-                        <img src="./images/btn_ic_link.png" alt="" />
+                <div class="barmenu">
+                     <img src="./images/barmenu01.png" alt="" />
+                </div>
+            </header>
+            <div class="mainimg">
+                <div class="main_slide">
+                    <ul class="m_slide">
+                        <li><img src="./images/bg05.png" alt="" /></li>
+                        <li><img src="./images/bg01.png" alt="" /></li>
+                        <li><img src="./images/bg03-1.png" alt="" /></li>
                     </ul>
-
-                    <ul class="btn">
-                        <li><img src="./images/ico_login.png" alt="" /></li>
-                        <li>로그인</li>
-                        <li><img src="./images/header_btn_schs.png" alt="" /></li>
-                        <li><img src="./images/header_btn_menu.png" alt="" /></li>
-                    </ul>
-
-                    
-                </nav>
-            </header>    
+                </div>
+                <!-- <ul class="main_btn">
+                    <li><a href="">btn</a></li>
+                    <li><a href="">btn</a></li>
+                </ul>
+                <a href="">left</a>
+                <a href="">right</a> -->
+            </div>
         </header>
-
-        <!-- 컨텐츠 영역 -->
-        <section id="contents">
-            <article class="main">
-                <div class="swiper_1">
-                    <ul class="qna">
-                        <li><img src="./images/ic_sch_in.png" alt="" /></li>
-                        <li><a href="#">궁금한 정보를 찾아보세요.</a></li>
-                        <li><a href="#"><img src="./images/ic_sch.png" alt="" /></a></li>
-                    </ul>
-                    <ul class="key">
-                        <h3>이런 키워드 검색 어떠세요?</h3>
-                        <li><a href="#">#나의계약</a></li>
-                        <li><a href="#">#보험계약대출</a></li>
-                        <li><a href="#">#보험</a></li>
-                        <li><a href="#">#대출</a></li>
-                        <li><a href="#">#약관</a></li>
-                        <li><a href="#">#연금</a></li>
-                    </ul>
-                </div>
-                <div class="swiper_2">
-                    <ul class="box">
-                        <h3>계약 조회부터 다양한 금융거래까지<br/>
-                        지금 로그인하세요.</h3>
-                        <li><a href="#">로그인</a></li>
-                        <li><a href="#" style="color: #333;">인증센터</a></li>
-                    </ul>
-                </div>
-                <div class="swiper_3">
-                    <div class="next">
-                        <h3>내 모든 금융정보를<br/>
-                        한 손안에<br>
-                        마이데이터peach</h3>
-                        <div class="ban"><a href="#">마이데이터 바로가기</a></div>
-                    </div>
-                </div>
-                <div class="swiper_4">
-                    <ul class="list">
-                        <h3>마지막 이용하신 메뉴예요!</h3>
-                        <li><a href="#"> 자주 하는 질문</a></li>
-                        <li><a href="#"> 이벤트</a></li>
-                        <li><a href="#"> 로그인</a></li>
-                    </ul>
-                </div>
-            </article>
-            <article class="select">
-                <article class="area">
-                    <ul>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu01.png" alt="" /></a>
-                            <p>MY교보<br/>
-                            (계약조회)</p>
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu02.png" alt="" /></a>
-                            <p>보험금<br/>
-                            청구</p> 
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu03.png" alt="" /></a>
-                            <p>대출<br/>
-                            신청</p> 
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu04.png" alt="" /></a>
-                            <p>나의<br/>
-                            퇴직연금</p> 
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu05.png" alt="" /></a>
-                            <p>보험료<br/>
-                            납입</p>  
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu06.png" alt="" /></a>
-                            <p>변액보험<br/>
-                            펀드변경</p> 
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu07.png" alt="" /></a>
-                            <p>펀드<br/>
-                            신규가입</p> 
-                        </li>
-                        <li>
-                            <a href="#"><img src="./images/ico_menu08.png" alt="" /></a>
-                            <p>신탁<br/>
-                            신규가입</p> 
-                        </li>
-                    </ul>
-                    <div>
-                        <h5>[피카소와 20세기<br/>
-                        거장들] 초대 이벤트</h5>
-                        <img src="./images/bnr01.png" alt="" />
-                    </div>
-                </article>
-            </article>
-            <article class="group">
-                <ul class="menu">
-                    <li><a href="#">다이렉트</a></li>
-                    <li><a href="#">퇴직연금</a></li>
-                    <li><a href="#">대출</a></li>
-                    <li><a href="#">펀드/신탁</a></li>
-                </ul>
-                <h2>퇴직연금에서 운용하는 다양한 상품을 알아보세요!</h2>
-                <ul class="boxer">
-                    <li>
-                        <span>#IRP가입</span>
-                        <h5>세금 아끼는 개인형IRP</h5>
-                        <p>세액공제는 기본!<br/>
-                        퇴직소득세도 아낄 수 있어요!</p>
-                    </li>
-                    <li>
-                        <span style="width: 120px;">#퇴직연금서비스</span>
-                        <h5>퇴직연금 고객님을 위한<br/>
-                        엄청난 혜택!</h5>
-                        <p>다양한 전자책이 무료!<br/>
-                        혜택 쇼핑몰도 있어요!</p>
-                    </li>
-                    <li>
-                        <span style="width: 56px;">#투자</span>
-                        <h5>어려운 퇴직연금 투자!<br/>
-                        우리'같이투자'해요</h5>
-                        <p>어려운 투자 힘드셨죠?<br/>
-                        노하우를 공유 해보세요</p>
-                    </li>
-                </ul>
-            </article>
-            <article class="check">
-                <div class="check_l">
-                    <h5>요즘 금융정보,<br/>
-                    어디까지<br/>
-                    알고 계세요?</h5>
-                    <p>카드뉴스로 쉽게 금융을 배워요</p>
-                    <span>
-                        <img src="./images/arr_main.png" alt="" />
-                        <p style="font-size: 14px;">1/1</p>
-                        <img src="./images/arr_main.png" alt="" />
-                    </span>
-                </div>
-                <ul class="check_r">
-                    <li>
-                        <img src="./images/img_card01.jpg" alt="" />
-                        <h5>연령대별 필수보험 우선순위,<br/>
-                        체크리스트</h5>
-                    </li>
-                    <li>
-                        <img src="./images/img_card02.jpg" alt="" />
-                        <h5>현실적인 내집 마련 방법<br/>
-                        3가지</h5>
-                    </li>
-                    <li>
-                        <img src="./images/img_card03.jpg" alt="" />
-                        <h5>행복한 노후를 보내는 액티브<br/>
-                        시니어의 비결</h5>
-                    </li>
-                </ul>
-            </article>
-
-            <!-- 이벤트 부분 -->
-            <article class="event">
-                <h3>내 보장 확인하고 커피한잔 받으세요!!</h3>
-                <p>10분이상 보험 상담시 (1인 1회)</p>
-                <img src="./images/btn_2.png" alt="" />
-            </article>
-
-            <!-- 배너 부분 -->
-            <article class="banner">
-                <div class="ban_l">
-                    <h3>교보생명이 지급한 보험금</h3>
-                    <ul>
-                        <li style="font-size: 15px;">연간누계</li>
-                        <li style="font-size: 40px; font-weight: 900;">4,763억원</li>
-                        <li style="margin-top: 10px; color: #666;">사고,만기보험금 및 연금합계액(2023.01월만 기준)</li>
-                    </ul>
-                    <span>
-                        <p><strong>보험금 지급사례</strong></p>
-                        <p>남이 아닌 나의 일이였다. 행복에서 절망으로, 다시 행복으로!</p>
-                    </span>
-                </div>
-                <div class="ban_r">
-                    <img src="./images/display-img (2).png" alt=""/>
-                    <h5>광화문 글판</h5>
-                    <p>사랑, 위안, 격려, 희망의 한마디<br/>
-                    광화문글판으로 세상에 온기를 더합니다.</p>
-                </div>
-            </article>
-            <!-- 인포 부분 -->
-            <article class="info">
-                <article class="info_g">
-                    <div class="left">
-                        <h3>궁금증을 해결해 드릴게요!</h3>
-                        <span>
-                            <img src="./images/arr_main.png" alt="" />
-                            <p style="font-size: 15px;">1/2</p>
-                            <img src="./images/arr_main.png" alt="" />
-                        </span>
-                        <ul>
-                            <li>상담신청</li>
-                            <li>자주묻는질문</li>
-                            <li>필요서류안내</li>
-                            <li>소비자포털</li>
-                        </ul>
-                    </div>
-                    <div class="right">
-                        <h3>공지사항</h3>
-                        <span>더보기 ></span>
-                        <ul class="txt">
-                            <li>
-                                &nbsp;금융결제원 전산시스템 작업에 따른 신분...
-                            </li>
-                            <li>
-                                &nbsp;IT인프라 교체 및 점검 작업에 따른 관련 서... 
-                            </li>
-                            <li>
-                                &nbsp;교보생명App, 모바일/PC 홈페이지 서비...
-                            </li>
-                        </ul>
-                        <ul class="date">
-                            <li>2023.04.13</li>
-                            <li>2023.04.06</li>
-                            <li>2023.04.04</li>
-                        </ul>
-                    </div>
-                </article>
-            </article>
-
-            <!-- 공지 부분 -->
-            <article class="notice">
-                <ul class="iner">
-                    <li>약관/정책안내</li>
-                    <li>안내/유의사항</li>
-                    <li>각종신고정보</li>
-                    <li>콜센터 1588-1001</li>
-                    <li>관계사/업무관련 사이트</li>
-                </ul>
+        <!-- 텍스트 -->
+        <section id="text_area">
+            <article class="text_in">
+                <h3>" 평온함이나 즐거움, 호기심을 불러이르켜 거실에서 사무실과 같은<br />
+                개인 공간을 보다 아름답게 가꿔주는 섬세하게 제작된 이솝 "</h3>
             </article>
         </section>
-
-        <!-- 하단 영역 -->
-        <footer id="footer">
-            <ul class="nav_t">
-                <li><strong>개인정보처리방침</strong>(홈페이지고객용)</li>
-                <li><strong>개인정보처리방침</strong>(금융거래고객용)</li>
-                <li>고객정보취급방침</li>
-                <li>개인신용정보이용 · 제공 조회</li>
-                <li>이용약관</li>
-                <li>신용정보활용체제</li>
-                <li>보호금융상품등록부</li>
-            </ul>
-            <div class="info_box">
-                <p>대표이사 : 신창재, 편정범</p>
-                <p>사업자등록번호 : 102-81-11097 &nbsp;&nbsp; 주소 : (03154)서울시 종로구 종로1(종로1가) 교보생명보험주식회사 </p>
-                <p>© KYOBO LIFE INSURANCE CO.,LTD.</p>
-            </div>
-            <div class="util">
-                <ul class="lit_link">
+        <!-- 인기상품 -->
+        <section id="popular">
+            <article class="popular_in"> 
+                <header class="pop_h">
+                    <h3>POPULAR</h3>
+                    <p><a href="">MORE+</a></p>
+                </header>
+                <section class="pop_b">
+                    <ul class="list">
+                        <li>
+                            <a href=""><img src="./images/pd01.png" alt="상품01" /></a>
+                            <h5>페뷸러스 페이스 클렌저</h5>
+                            <p>베르가모트 오일, 캐모마일 꽃 오일, 로즈마리잎</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/pd02.png" alt="상품02" /></a>
+                            <h5>엘리멘탈 페이셜 배리어 크림</h5>
+                            <p>카퍼PCA, 비사보틀, 진저 루트</p>
+                        </li>
+                        <li>
+                            <a href=""><img src="./images/pd03.png" alt="상품03" /></a>
+                            <h5 style="margin-top: 0px;">파슬리 씨드 안티옥시던트 인텐스 세럼</h5>
+                            <p>파슬리 씨드, 토코페롤(비타민E),홍조류</p>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+        </section>
+        <!-- 퍼스널향 -->
+        <section id="perfume">
+            <header class="per_h">
+                <p>향수</p>
+                <h2>이솝의 퍼스널향</h2>
+                <span>전통에서 벗어난 매혹적이고 감각적인 이솝 프래그런스는<br />
+                      추억과 우리를 이어주는 다리이자 주변 사람들과의 연결점입니다.
+                </span>
+                <button type="button" class="btn"><a href="">MORE &nbsp;></a></button>
+            </header>
+            <section class="per_b">
+                <img src="./images/sb02.png" alt="향수">
+            </section>
+        </section>
+        <!-- 홈케어 -->
+        <section id="homecare">
+            <header class="home_h">
+                <h3>HOME CARE</h3>
+            </header>
+            <section class="home_b">
+                <ul class="home_view">
                     <li>
-                        <a href="#">광화문에서 읽다,거닐다,느끼다 &nbsp;></a>
+                        <div class="img"><a href=""><img src="./images/hc01.png" alt="상품01"/></a></div>
+                        <h5>포스트-푸-드롭스</h5>
+                        <p>텐저린,일랑일랑,만다린</p>
                     </li>
                     <li>
-                        <a href="#">교보생명 채용 &nbsp;></a>
+                        <div class="img"><a href=""><img src="./images/hc02.png" alt="상품02" style="width: 57%;"/></a></div>
+                        <h5>올루스 아로마틱 룸 스프레이</h5>
+                        <p>갈바눔,그레이프프루트,자스민</p>
+                    </li>
+                    <li>
+                        <div class="img"><a href=""><img src="./images/hc03.png" alt="상품03" style="padding-top: 60px;"/></a></div>
+                        <h5>사라시나 아로마틱 인센스</h5>
+                        <p>샌달우드,클로브,시나몬</p>
+                    </li>
+                    <li>
+                        <div class="img"><a href=""><img src="./images/hc04.png" alt="상품03" style="padding-top: 70px;"/></a></div>
+                        <h5>칼리푸스 아로마틱 캔들</h5>
+                        <p>베티버,프랑킨센스,시소</p>
+                    </li>
+                    <li>
+                        <div class="img"><a href=""><img src="./images/hc05.png" alt="상품03" style="padding-top: 140px;"/></a></div>
+                        <h5>브라스 오일 버너</h5>
+                        <p>무게감 있는 아름다운 오브제</p>
+                    </li>
+                    <li>
+                        <div class="img"><a href=""><img src="./images/hc06.png" alt="상품03" style="padding-top: 180px;"/></a></div>
+                        <h5>브론즈 인센스 홀더</h5>
+                        <p>모든 인테이러에 적합</p>
                     </li>
                 </ul>
-                <ul class="lit_sns">
-                    <li><img src="./images/ico_facebook.png" alt="" /></li>
-                    <li><img src="./images/ico_ytube.png" alt="" /></li>
-                    <li><img src="./images/ico_blog.png" alt="" /></li>
-                </ul>
-                <ul class="wa">
+                <div class="controls">
+                    <button class="prev"><img src="./images/ico_link01.png" alt=""></button>
+                    <button class="next"><img src="./images/ico_link.png" alt=""></button>
+                </div>
+            </section>
+            
+        </section>
+        <!-- 스토어 로케이터 / 인포 -->
+        <section id="info">
+            <article class=" info_in">
+                <section class="location">
+                    <h3>스토어 로케이터</h3>
+                    <p>매장에서는 이솝 컨설턴트가 고객 여러분을 따뜻하게 맞이하고<br/>
+                        기프트 구매를 위한 맞춤형 컨설팅을 제공해드립니다.
+                    </p>
+                    <div class="btn">
+                        <a href="">가까운 스토어 찾기</a>
+                        <a href=""><img src="./images/ico_link.png" alt="화살표 링크"></a>
+                    </div>
+                    <section class="slide">
+                        <div class="view_area"> <!-- 이미지 슬라이드-->
+                            <ul class="view">
+                                <li><a href="#"><img src="./images/location.png" alr=""></a></li>
+                                <li><a href="#"><img src="./images/location02.jpg" alr=""></a></li>
+                                <li><a href="#"><img src="./images/location03.png" alr=""></a></li>
+                            </ul>
+                        </div>  
+                        <ul class="btn_b">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section class="info_r">
+                    <ul class="thank">
+                        <li>감사의 제스처</li>
+                        <h5><a href="">기업체 구매</a></h5>
+                        <p>소중한 직원과 고객에게 감사의 마음을 표현하기에<br />
+                            적합한 폭넓은 기프트 옵션을 찾아보세요.<br>
+                    </ul>
+                    <ul class="gift">
+                        <li>어버이날과 스승의날</li>
+                        <h5><a href="">기프트 셀렉션</a></h5>
+                        <p>훌륭한 조언으로 이끌어 주신 분들을 기리는<br />
+                            핸드 & 바디 케어 키트 감사를 전하는 기프트 셀렉션</p>
+                    </ul>
+                </section>
+            </article>
+        </section>
+        <!-- 하단부분 -->
+        <footer id ="footer">
+            <footer class="footer_in">
+                <ul>
                     <li>
-                        <p style="margin-left: 60px;">소비자중심경영<br/>
-                        인증획득</p>
+                        <h5>ORDER AND SUPPORT</h5>
+                        <p><a href="">문의하기</a></p>
+                        <p><a href="">자주 묻는 질문</a></p>
+                        <p><a href="">배송</a></p>
+                        <p><a href="">배송 조회하기</a></p>
                     </li>
                     <li>
-                        <p style="margin-left: 50px;">웹접근성우수사이트<br/>
-                        인증마크획득</p>
+                        <h5>INTRODUCTION</h5>
+                        <p><a href="">브랜드 스토리</a></p>
+                        <p><a href="">이솝 재단</a></p>
+                        <p><a href="">채용</a></p>
+                    </li>
+                    <li>
+                        <h5>SERVICE</h5>
+                        <p><a href="">기업체 구매</a></p>
+                        <p><a href="">페이셜 어포인트먼트</a></p>
+                        <p><a href="">1:1채팅 상담</a></p>
+                    </li>
+                    <li>
+                        <h5>SOCIAL MEDIA</h5>
+                        <a href=""><img src="./images/instagram.png" alt=""></a>
+                        <a href=""><img src="./images/twiter.png" alt=""></a>
+                        <a href=""><img src="./images/kakaotalk.png" alt=""></a>
+                    </li>
+                    <li>
+                        <h5>CONTACT US</h5>
+                        <p>서울특별시 강남구 도산대로45길 10-6 이솝코리아<br>
+                            1800-1987 | aesop@aesop.com</p>
+                        
                     </li>
                 </ul>
-            </div>
+                <div class="line"></div>
+                <p style="color: #fff; margin-top: 20px;">
+                    © Aesop
+                </p>
+                <div class="sns">
+                    <p><a href=""><img src="./images/instagram.png" alt="" /></a></p>
+                    <p><a href=""><img src="./images/twiter.png" alt="" /></a></p>
+                    <p><a href=""><img src="./images/kakaotalk.png" alt="" /></a></p>
+                </div>
+            </footer>
         </footer>
-
-        
     </div>
 </body>
 </html>
